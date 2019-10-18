@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+#outer-wrapper {
+    width: 40%;
+    position: relative;
+}
+
+#user-block {
+    left: -50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: relative;
+}
+
+#timer {
+    position: absolute;
+    color: white;
+    transform: translateX(125%);
+    font-family: 'Lobster', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.g-textarea {
+    text-align: center;
+    border: none;
+    position: absolute;
+    text-transform: capitalize;
+    background-color: transparent;
+    font-family: 'Lobster', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateX(-22%);
+}
+
+@media screen and (max-width: 800px) {
+    #outer-wrapper {
+        width: 80%;
+    }
+}
